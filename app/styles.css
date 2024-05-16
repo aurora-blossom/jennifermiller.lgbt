@@ -1,0 +1,44 @@
+:root {
+    --bulma-primary-h: 281deg;
+    --bulma-primary-s: 81.8%;
+    --bulma-primary-l: 84.9%;
+}
+
+.app {
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: rgb(228, 185, 248);
+}
+
+.title {
+    font-size: 3em;
+    text-align: center;
+    padding: 0.25em;
+    color: black;
+    width: 100vw;
+}
+
+.hi {
+    font-size: 4em;
+    padding: 2em;
+}
+
+.bio {
+    font-size: 2em;
+    text-align: center;
+    max-width: 1000px;
+}
+
+.inline {
+    display: inline;
+}
+
+.buttons {
+    margin: 15px;
+}
