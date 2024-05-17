@@ -13,15 +13,11 @@ export default function Home() {
         around at my projects or contact me with any inquiries!
       </div>
       <div className='buttons'>
-        <a href='/projects'>
-          <button className='button is-primary inline'>
+        <a href='/projects' className='button is-primary inline'>
             Projects
-          </button>
         </a>
-        <a href='/contact'>
-          <button className='button is-primary inline'>
+        <a href='/contact' className='button is-primary inline'>
             Contact Me
-          </button>
         </a>
       </div>
     </div>
