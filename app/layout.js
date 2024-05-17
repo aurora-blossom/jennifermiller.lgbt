@@ -1,4 +1,7 @@
 import { Inter } from "next/font/google";
+import './bulma.min.css';
+import './styles.css';
+
 
 const inter = Inter({ subsets: ["latin"] });
 
