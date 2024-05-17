@@ -1,9 +1,9 @@
+import TitleBar from './titlebar.js'
+
 export default function Home() {
   return (
     <div className='app'>
-      <header>
-        <h1 className='title'>jennifer miller</h1>
-      </header>
+      <TitleBar/>
       <h1 className='hi'>
         Hi!
       </h1>
@@ -16,8 +16,16 @@ export default function Home() {
         around at my projects or contact me with any inquiries!
       </div>
       <div className='buttons'>
-        <button className='button is-primary inline'>Projects</button>
-        <button className='button is-primary inline'>Contact Me</button>
+        <a href='./projects'>
+          <button className='button is-primary inline'>
+            Projects
+          </button>
+        </a>
+        <a href='./contact'>
+          <button className='button is-primary inline'>
+            Contact Me
+          </button>
+        </a>
       </div>
     </div>
   );
