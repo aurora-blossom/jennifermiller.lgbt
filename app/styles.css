@@ -32,7 +32,6 @@ header {
 .bio {
     font-size: 2em;
     text-align: center;
-    max-width: 1000px;
 }
 
 .inline {
@@ -41,4 +40,21 @@ header {
 
 .buttons {
     margin: 15px;
+}
+
+.project-heading {
+    font-size: 3em;
+    padding: 1.5em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media(min-width: 1024px) {
+    .container {
+        width: 140ch;
+    }
 }

@@ -1,9 +1,6 @@
-import { Inter } from "next/font/google";
 import './bulma.min.css';
 import './styles.css';
-
-
-const inter = Inter({ subsets: ["latin"] });
+import TitleBar from "./titlebar";
 
 export const metadata = {
   title: "Jennifer Miller",
@@ -12,7 +9,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>
+        <div className='app'>
+          <TitleBar/>
+          {children}
+        </div>
+      </body>
     </html>
   );
 }
