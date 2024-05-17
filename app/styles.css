@@ -24,9 +24,13 @@ header {
     width: 100vw;
 }
 
-.hi {
+h1 {
     font-size: 4em;
     padding: 2em;
+}
+
+h2 {
+    font-size: 3em;
 }
 
 .bio {
@@ -42,15 +46,11 @@ header {
     margin: 15px;
 }
 
-.project-heading {
-    font-size: 3em;
-    padding: 1.5em;
-}
-
 .container {
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 90%;
 }
 
 @media(min-width: 1024px) {
