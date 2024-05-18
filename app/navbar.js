@@ -3,7 +3,7 @@ export default function NavBar() {
     <div className='navBar'>
       <a className='navButton' href='/'>home</a>
       <a className='navButton' href='/projects'>projects</a>
-      <a className='navButton' href='/contact'>contact me</a>
+      <a className='navButton' href='mailto:contact@jennifermiller.lgbt'>contact me</a>
     </div>
   );
 }

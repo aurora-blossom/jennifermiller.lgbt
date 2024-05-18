@@ -24,7 +24,8 @@ export default function Page() {
         You can find the GitHub <a
           href='https://github.com/aurora-blossom/jennifermiller.lgbt'
           target='_blank'
-          rel='noreferrer noopener'>
+          rel='noreferrer noopener'
+          className='has-text-primary'>
            here
         </a>.
       </div>
@@ -47,7 +48,8 @@ export default function Page() {
         Python's built-in TKinter. You can find the GitHub <a
           href='https://github.com/MPKellyy/Patient-Information-Management-System'
           target='_blank'
-          rel='noreferrer noopener'>
+          rel='noreferrer noopener'
+          className='has-text-primary'>
             here
         </a>.
       </div>

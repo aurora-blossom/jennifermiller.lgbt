@@ -16,7 +16,7 @@ export default function Home() {
         <a href='/projects' className='button is-primary inline'>
             Projects
         </a>
-        <a href='/contact' className='button is-primary inline'>
+        <a href='mailto:contact@jennifermiller.lgbt' className='button is-primary inline'>
             Contact Me
         </a>
       </div>
